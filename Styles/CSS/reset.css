@@ -1,0 +1,23 @@
+/*   -- you can use for free witch --
+    https://
+*/
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    overflow-wrap: break-word;
+    font-weight: normal;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
