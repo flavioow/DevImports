@@ -1,0 +1,101 @@
+/*   -- you can use for free witch --
+    https://fh-shadow.github.io/DevImports/Styles/CSS/pretty.css
+*/
+
+@import url(https://fh-shadow.github.io/DevImports/Styles/CSS/reset.css);
+
+:root {
+    /* Tipografia */
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-size-small: 0.8rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.2rem;
+    --line-height-small: 1.2;
+    --line-height-medium: 1.5;
+    --line-height-large: 1.8;
+    --letter-spacing-small: 0.5px;
+    --letter-spacing-medium: 1px;
+    --letter-spacing-large: 1.5px;
+
+    /* Fontes */
+    --text-decoration-none: none;
+    --text-decoration-underline: underline;
+    --text-indent-small: 5px;
+    --text-indent-medium: 10px;
+    --text-indent-large: 15px;
+    --text-align-left: left;
+    --text-align-center: center;
+    --text-align-right: right;
+    --text-overflow-clip: clip;
+    --text-overflow-ellipsis: ellipsis;
+    --text-transform-uppercase: uppercase;
+    --text-transform-lowercase: lowercase;
+    --text-transform-capitalize: capitalize;
+    --webkit-text-security: disc;
+
+    /* Tema */
+    --color-primary: #333;
+    --color-secondary: #666;
+    --color-background: #fff;
+    --box-shadow-small: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --box-shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --box-shadow-large: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+    /* Alinhamento */
+    --margin-small: 5px;
+    --margin-medium: 10px;
+    --margin-large: 15px;
+    --padding-small: 5px;
+    --padding-medium: 10px;
+    --padding-large: 15px;
+    --border-small: 1px solid #ddd;
+    --border-medium: 2px solid #ccc;
+    --border-large: 3px solid #bbb;
+    --border-radius-small: 3px;
+    --border-radius-medium: 5px;
+    --border-radius-large: 10px;
+
+    /* Funcionalidades */
+    --user-select-none: none;
+    --user-select-text: text;
+    --selection-background: #3367d1;
+    --selection-color: #fff;
+    --cursor-default: default;
+    --cursor-pointer: pointer;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+    letter-spacing: var(--letter-spacing-medium);
+    color: var(--color-primary);
+    background-color: var(--color-background);
+}
+
+p {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+    text-align: var(--text-align-left);
+    margin: var(--margin-small);
+}
+
+h1, h2, h3 {
+    font-weight: var(--font-weight-bold);
+    text-transform: var(--text-transform-capitalize);
+}
+
+h1 {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-large);
+    margin-bottom: var(--margin-medium);
+}
+
+h2 {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+    margin-bottom: var(--margin-small);
+}
