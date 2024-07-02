@@ -1,0 +1,98 @@
+/*   -- you can use for free witch --
+    https://fh-shadow.github.io/DevImports/Styles/CSS/util.css
+*/
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+    .inline-block {
+        display: inline-block;
+    }
+
+    .inline-flex {
+        display: inline-flex;
+    }
+
+    .inline-grid {
+        display: inline-grid;
+    }
+
+.flex {
+    display: flex;
+}
+
+    .flex-start {
+        display: flex;
+        justify-content: start;
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-end {
+        display: flex;
+        justify-content: end;
+    }
+
+    .flex-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .flex-envenly {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flex-stretch {
+        display: flex;
+        justify-content: stretch;
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-row-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.grid {
+    display: grid;
+}
+
+.table {
+    display: table;
+}
+
+.ruby {
+    display: ruby;
+}
