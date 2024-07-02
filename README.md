@@ -1,2 +1,2 @@
 # DevImports
- Importações úteis para programação em geral
+ Useful imports for programming in general
