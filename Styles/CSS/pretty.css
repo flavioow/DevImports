@@ -2,7 +2,7 @@
     https://flavioow.github.io/DevImports/Styles/CSS/pretty.css
 */
 
-@import url(https://flavioow.github.io/DevImports/Styles/CSS/reset.css);
+@import url("https://flavioow.github.io/DevImports/Styles/CSS/reset.css");
 
 :root {
     /* Tipografia */
