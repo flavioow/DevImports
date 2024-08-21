@@ -159,6 +159,11 @@ button, input[type="submit"], *[class*="button"] {
     color: var(--text-50);
     padding: 1em;
     border-radius: .5em;
+
+    &:hover {
+        background: var(--accent-500);
+        transition: .3s all ease-in-out;
+    }
 }
 
 .button-secondary {
@@ -166,4 +171,9 @@ button, input[type="submit"], *[class*="button"] {
     color: var(--text-950);
     padding: 1em;
     border-radius: .5em;
+
+    &:hover {
+        background: var(--secondary-200);
+        transition: .3s all ease-in-out;
+    }
 }
