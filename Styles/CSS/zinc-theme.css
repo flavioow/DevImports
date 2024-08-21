@@ -172,12 +172,8 @@ button, input[type="submit"], *[class*="button"] {
 .button-secondary {
     background: var(--secondary-100);
     color: var(--text-950);
-    padding: 1em;
-    border-radius: .5em;
-    transition: .3s all ease-in-out;
 
     &:hover {
         background: var(--secondary-200);
-        transition: .3s all ease-in-out;
     }
 }
