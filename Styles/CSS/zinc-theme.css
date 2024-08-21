@@ -1,0 +1,169 @@
+/*   -- you can use for free witch --
+    https://flavioow.github.io/DevImports/Styles/CSS/zinc-theme.css
+*/
+
+@import url("https://flavioow.github.io/DevImports/Styles/CSS/pretty.css");
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-50: #f6f4ef;
+    --text-100: #ede9de;
+    --text-200: #dad2be;
+    --text-300: #c8bc9d;
+    --text-400: #b6a57c;
+    --text-500: #a38f5c;
+    --text-600: #837249;
+    --text-700: #625637;
+    --text-800: #413925;
+    --text-900: #211d12;
+    --text-950: #100e09;
+
+    --background-50: #f9f5ec;
+    --background-100: #f2ecd9;
+    --background-200: #e6d9b3;
+    --background-300: #d9c68c;
+    --background-400: #ccb366;
+    --background-500: #bf9f40;
+    --background-600: #998033;
+    --background-700: #736026;
+    --background-800: #4d4019;
+    --background-900: #26200d;
+    --background-950: #131006;
+
+    --primary-50: #f6f4ef;
+    --primary-100: #ece8df;
+    --primary-200: #dad1be;
+    --primary-300: #c7ba9e;
+    --primary-400: #b5a37d;
+    --primary-500: #a28c5d;
+    --primary-600: #82704a;
+    --primary-700: #615438;
+    --primary-800: #413825;
+    --primary-900: #201c13;
+    --primary-950: #100e09;
+
+    --secondary-50: #f7f4ed;
+    --secondary-100: #f0e9db;
+    --secondary-200: #e0d3b8;
+    --secondary-300: #d1be94;
+    --secondary-400: #c2a870;
+    --secondary-500: #b3924d;
+    --secondary-600: #8f753d;
+    --secondary-700: #6b582e;
+    --secondary-800: #473a1f;
+    --secondary-900: #241d0f;
+    --secondary-950: #120f08;
+
+    --accent-50: #f8f4ec;
+    --accent-100: #f2ead9;
+    --accent-200: #e4d5b4;
+    --accent-300: #d7c08e;
+    --accent-400: #caab68;
+    --accent-500: #bd9642;
+    --accent-600: #977835;
+    --accent-700: #715a28;
+    --accent-800: #4b3c1b;
+    --accent-900: #261e0d;
+    --accent-950: #130f07;
+
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-50: #100e09;
+    --text-100: #211d12;
+    --text-200: #413925;
+    --text-300: #625637;
+    --text-400: #837249;
+    --text-500: #a38f5c;
+    --text-600: #b6a57c;
+    --text-700: #c8bc9d;
+    --text-800: #dad2be;
+    --text-900: #ede9de;
+    --text-950: #f6f4ef;
+
+    --background-50: #120e07;
+    --background-100: #251c0e;
+    --background-200: #4a381c;
+    --background-300: #6f532a;
+    --background-400: #946f38;
+    --background-500: #b98b46;
+    --background-600: #c7a26b;
+    --background-700: #d5b990;
+    --background-800: #e3d1b5;
+    --background-900: #f1e8da;
+    --background-950: #f8f3ed;
+
+    --primary-50: #100e09;
+    --primary-100: #201c13;
+    --primary-200: #413825;
+    --primary-300: #615438;
+    --primary-400: #82704a;
+    --primary-500: #a28c5d;
+    --primary-600: #b5a37d;
+    --primary-700: #c7ba9e;
+    --primary-800: #dad1be;
+    --primary-900: #ece8df;
+    --primary-950: #f6f4ef;
+
+    --secondary-50: #120f08;
+    --secondary-100: #231d10;
+    --secondary-200: #473a1f;
+    --secondary-300: #6a572f;
+    --secondary-400: #8e753e;
+    --secondary-500: #b1924e;
+    --secondary-600: #c1a871;
+    --secondary-700: #d0bd95;
+    --secondary-800: #e0d3b8;
+    --secondary-900: #efe9dc;
+    --secondary-950: #f7f4ed;
+
+    --accent-50: #130f07;
+    --accent-100: #261e0d;
+    --accent-200: #4b3d1b;
+    --accent-300: #715b28;
+    --accent-400: #977a35;
+    --accent-500: #bd9842;
+    --accent-600: #caad68;
+    --accent-700: #d7c18e;
+    --accent-800: #e4d6b4;
+    --accent-900: #f2ead9;
+    --accent-950: #f8f5ec;
+  }
+}
+
+* {
+    color: var(--text-950);
+}
+
+html, body {
+    background: var(--background-50);
+}
+
+a {
+    color: var(--accent-600);
+    text-decoration: underline;
+}
+
+::selection {
+    backgroun: var(--accent-400);
+}
+
+::placeholder {
+    color: var(--text-600);
+}
+
+button, input[type="submit"], *[class*="button"] {
+    background: var(--accent-600);
+    color: var(--text-50);
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.button-secondary {
+    background: var(--secondary-50);
+    color: var(--text-950);
+    padding: 1em;
+    border-radius: .5em;
+}
