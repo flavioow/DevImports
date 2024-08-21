@@ -157,8 +157,11 @@ a {
 button, input[type="submit"], *[class*="button"] {
     background: var(--accent-600);
     color: var(--text-50);
-    padding: 1em;
+    padding: .5em 1.5em;
     border-radius: .5em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s all ease-in-out;
 
     &:hover {
         background: var(--accent-500);
@@ -167,10 +170,11 @@ button, input[type="submit"], *[class*="button"] {
 }
 
 .button-secondary {
-    background: var(--secondary-50);
+    background: var(--secondary-100);
     color: var(--text-950);
     padding: 1em;
     border-radius: .5em;
+    transition: .3s all ease-in-out;
 
     &:hover {
         background: var(--secondary-200);
