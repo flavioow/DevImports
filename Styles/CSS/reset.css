@@ -1,8 +1,9 @@
 /*   -- you can use for free witch --
-    https://fh-shadow.github.io/DevImports/Styles/CSS/reset.css
+    https://flavioow.github.io/DevImports/Styles/CSS/reset.css
 */
 
 *, *::after, *::before {
+	content: "";
     box-sizing: border-box;
 }
 
@@ -12,6 +13,7 @@
 }
 
 body {
+	font-size: 100%;
 	line-height: 1;
 }
 
