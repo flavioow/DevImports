@@ -137,6 +137,14 @@
     color: var(--text-950);
 }
 
+::selection {
+    backgroun: var(--accent-400);
+}
+
+::placeholder {
+    color: var(--text-600);
+}
+
 html, body {
     background: var(--background-50);
 }
@@ -144,14 +152,6 @@ html, body {
 a {
     color: var(--accent-600);
     text-decoration: underline;
-}
-
-::selection {
-    backgroun: var(--accent-400);
-}
-
-::placeholder {
-    color: var(--text-600);
 }
 
 button, input[type="submit"], *[class*="button"] {
