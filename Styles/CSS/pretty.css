@@ -98,3 +98,8 @@ h2 {
     line-height: var(--line-height-medium);
     margin-bottom: var(--margin-small);
 }
+
+button, input[type="submit"], *[class*="button"] {
+    border: none;
+    outline: none;
+}
